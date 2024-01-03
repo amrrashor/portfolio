@@ -1,7 +1,15 @@
-import Image from 'next/image'
+import Hero from "@/components/Hero";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">my portfolio</main>
+    <main className="pt-[25px] md:pt-[100px]">
+      <Hero />
+      skill slider <br />
+      services <br />
+      who's behind <br />
+      take a look at my portfolio <br />
+      take a look at my experience <br />
+    </main>
   )
 }
