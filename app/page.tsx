@@ -1,11 +1,12 @@
 import Hero from "@/components/Hero";
+import SkillSlider from "@/components/SkillSlider";
 
 
 export default function Home() {
   return (
     <main className="pt-[25px] md:pt-[100px]">
       <Hero />
-      skill slider <br />
+      <SkillSlider />
       services <br />
       who's behind <br />
       take a look at my portfolio <br />
