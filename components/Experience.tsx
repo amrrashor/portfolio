@@ -5,10 +5,10 @@ import { GoPerson } from "react-icons/go";
 const Experience = () => {
     return (
         <section className='h-full primary-2  pt-[240px] pb-[240px] '>
-            <div className='relative overflow-visible min-h-[400px] max-w-[1300px] mx-auto px-[50px] flex justify-between'>
-                <div className='sticky top-12 text-white md:text-[52px] text-[30px] font-bold md:leading-[1.15em] leading-[0.7em]'>
-                    <div>Take a look at my<br /><span className='gradient-1 px-[4px]'>past experience</span></div>
-                    <button className='mt-[35px] flex hover:bg-[#3898ec] hover:text-white duration-200 bg-white border-1 text-primary-1 text-center rounded-[16px] px-[38px] py-[26px] text-[18px] font-bold leading-[1.1em]'>
+            <div className='relative overflow-visible min-h-[400px] max-w-[1300px] mx-auto px-[50px] flex justify-between flex-col md:flex-row'>
+                <div className=' text-center md:text-left mb-[25px] md:mb-0 w-full md:sticky top-0 text-white md:text-[52px] text-[30px] font-bold md:leading-[1.15em]'>
+                    <div className='w-full'>Take a look at my<br /><span className='gradient-1 px-[4px]'>past experience</span></div>
+                    <button className='w-full mt-[35px] flex hover:bg-[#3898ec] hover:text-white duration-200 bg-white border-1 text-primary-1 text-center rounded-[16px] px-[38px] py-[26px] text-[18px] font-bold leading-[1.1em]'>
                         <GoPerson className='mr-[7px]' />
                         See full resume
                     </button>
