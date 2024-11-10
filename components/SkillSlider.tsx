@@ -6,7 +6,7 @@ const DuplicatedSkills = [...Skills, ...Skills, ...Skills, ...Skills, ...Skills,
 
 const SkillSlider = () => {
     return (
-        <section className='w-full overflow-hidden pt-[20%] pb-[5%]'>
+        <section className='w-full overflow-hidden pt-[20%] pb-[5%] mb-[100px]'>
             <div className='primary-2 w-[110%] py-[60px] md:py-[70px] rotate-[-5deg] translate-x-[-25px]  '>
                 <div className='animate-marquee flex'>
                     {DuplicatedSkills.map((skill) => (

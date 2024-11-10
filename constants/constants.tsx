@@ -88,3 +88,30 @@ export let Skills = [
         icon: <IoLogoFirebase />
     }
 ]
+
+export const experienceData = [
+    {
+        id:1,
+        date: 'May 2024 - Present',
+        title:'Frontend / React Native Engineer',
+        description:'',
+        company:'ASSET Technology Group',
+        link: 'https://asset-technology.com/',
+    },
+    {
+        id:2,
+        date: 'Jun 2021 - May 2024',
+        title:'Frontend / React Native Engineer',
+        description:'',
+        company:'Beyond Apps Group',
+        link: 'https://www.beyond-apps-group.com/',
+    },
+    {
+        id:3,
+        date: 'Mar 2021 - Jun 2021',
+        title:'Frontend Developer',
+        description:'',
+        company:'Ostello AI',
+        link: 'https://www.ostello.co.in/',
+    },
+]

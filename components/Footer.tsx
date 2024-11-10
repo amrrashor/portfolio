@@ -15,7 +15,7 @@ const Footer = () => {
                             <FaceBook />
                         </a>
 
-                        <a href='' target='_blank' className='w-[40px] h-[40px] bg-white flex justify-center items-center rounded-full mr-[20px]'>
+                        <a href='https://www.instagram.com/amr_ashour1996' target='_blank' className='w-[40px] h-[40px] bg-white flex justify-center items-center rounded-full mr-[20px]'>
                             <Instagram />
                         </a>
 

@@ -8,10 +8,9 @@ export default function Home() {
     <main className="pt-[25px] md:pt-[100px]">
       <Hero />
       <SkillSlider />
-      services <br />
-      who's behind <br />
-      take a look at my portfolio <br />
+      <div>whos behind all this great work</div>
       <Experience />
+      <div>take a look at my portfolio</div>
     </main>
   )
 }
