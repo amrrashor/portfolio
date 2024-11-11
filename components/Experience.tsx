@@ -5,7 +5,7 @@ import { experienceData } from '@/constants/constants';
 
 const Experience = () => {
     return (
-        <section className='h-full primary-2  pt-[240px] pb-[240px] '>
+        <section className='h-full primary-2 pt-[240px] pb-[240px]'>
             <div className='relative overflow-visible min-h-[400px] max-w-[1300px] mx-auto px-[50px] flex justify-between md:flex-row flex-col'>
                 {/* ===left part=== */}
                 <div className=' block'>
@@ -14,7 +14,7 @@ const Experience = () => {
                         <a  
                             href='/AmrAshourResume.docx.pdf'
                             download='AmrAshourResume.docx.pdf'
-                            className='cursor-pointer w-full md:w-max mt-[35px] flex hover:bg-[#3898ec] hover:text-white duration-200 bg-white border-1 text-primary-1 text-center rounded-[16px] px-[38px] py-[26px] text-[18px] font-bold leading-[1.1em]'
+                            className='cursor-pointer w-full md:w-max mt-[35px] flex hover:bg-cyan-1 hover:text-white duration-200 bg-white border-1 text-primary-1 text-center rounded-[16px] px-[38px] py-[26px] text-[18px] font-bold leading-[1.1em]'
                         >
                             <GoPerson className='mr-[7px]' />
                             See full resume
