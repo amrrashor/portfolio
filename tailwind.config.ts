@@ -20,6 +20,9 @@ const config: Config = {
       colors: {
         'black-1': '#0b0b0b',
         'grey-1' : '#393939'
+      },
+      borderColor: {
+        'black-1': '#0b0b0b',
       }
     },
   },
