@@ -16,7 +16,7 @@ const Hero = () => {
                     </Link>
                     <Link
                         href='/portfolio'
-                        className='justify-center hover:bg-[#0b0b0b] hover:text-white p-[16px] md:p-[20px] rounded-[16px] border-1 flex items-center text-[18px] font-bold duration-200 leading-7'
+                        className='justify-center hover:bg-black-1 hover:text-white p-[16px] md:p-[20px] rounded-[16px] border-1 flex items-center text-[18px] font-bold duration-200 leading-7'
                     >
                         <IoMdBriefcase className='mr-[8px]' />View portfolio
                     </Link>

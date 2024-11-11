@@ -16,6 +16,10 @@ const config: Config = {
       backgroundColor: {
         'tomato-1' : '#ff4a60',
         'cyan-1': '#3898ec'
+      },
+      colors: {
+        'black-1': '#0b0b0b',
+        'grey-1' : '#393939'
       }
     },
   },
