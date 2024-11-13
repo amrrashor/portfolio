@@ -115,3 +115,66 @@ export const experienceData = [
         link: 'https://www.ostello.co.in/',
     },
 ]
+
+export const PortfolioProjects = [
+    {
+        id:1,
+        title:'PROJECT 1',
+        description:'lorem ipsum',
+        link:'',
+        tags: [
+            {
+                id:1,
+                label: 'React Native',
+            },
+            {
+                id:2,
+                label: 'React Native',
+            },
+            {
+                id:3,
+                label: 'React Native',
+            },
+        ]
+    },
+    {
+        id:2,
+        title:'PROJECT 2',
+        description:'LOREM IPSUM',
+        link:'',
+        tags: [
+            {
+                id:1,
+                label: 'React Native',
+            },
+            {
+                id:2,
+                label: 'React Native',
+            },
+            {
+                id:3,
+                label: 'React Native',
+            },
+        ]
+    },
+    {
+        id:3,
+        title:'PROJECT 3',
+        description:'LOREM IPSUM',
+        link:'',
+        tags: [
+            {
+                id:1,
+                label: 'React Native',
+            },
+            {
+                id:2,
+                label: 'React Native',
+            },
+            {
+                id:3,
+                label: 'React Native',
+            },
+        ]
+    },
+]

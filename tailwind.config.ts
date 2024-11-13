@@ -19,7 +19,10 @@ const config: Config = {
       },
       colors: {
         'black-1': '#0b0b0b',
-        'grey-1' : '#393939'
+        'grey-1' : '#393939',
+        'tomato-1' : '#ff4a60',
+        'cyan-1': '#3898ec',
+        'yellow-1': '#ffc431'
       },
       borderColor: {
         'black-1': '#0b0b0b',
