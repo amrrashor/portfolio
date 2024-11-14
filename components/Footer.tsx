@@ -52,7 +52,7 @@ const Footer = () => {
             <div className='w-[3/5] h-[1px] primary-1 mx-auto my-[50px]' />
 
             <p className='flex justify-center  items-center text-[12px] font-bold'>
-                <FaRegCopyright className='mr-[5px]' /> <p>DEVELOPED BY AMR ASHOUR</p>
+                <FaRegCopyright className='mr-[5px]' /> <span>DEVELOPED BY AMR ASHOUR</span>
             </p>
         </section>
     )

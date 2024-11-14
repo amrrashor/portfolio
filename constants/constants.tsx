@@ -116,7 +116,7 @@ export const experienceData = [
     },
 ]
 
-export const PortfolioProjects = [
+export const PortfolioProjectsData = [
     {
         id:1,
         title:'PROJECT 1',

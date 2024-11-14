@@ -1,10 +1,10 @@
 import React from 'react'
-import { experienceData } from '@/app/types/types'
+import { experienceDataProps } from '@/app/types/types'
 import { FaLink } from "react-icons/fa";
 
 
 interface ExperienceCardProps {
-    experience: experienceData
+    experience: experienceDataProps
 }
 
 const ExperienceCard = ({experience} : ExperienceCardProps) => {
