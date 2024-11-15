@@ -1,5 +1,5 @@
 import React from 'react'
-import { experienceDataProps } from '@/app/types/types'
+import { experienceDataProps } from '@/types/types'
 import { FaLink } from "react-icons/fa";
 
 

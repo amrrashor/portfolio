@@ -1,7 +1,11 @@
+"use client"
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
-import { PortfolioProjectsProps } from '@/app/types/types';
+import { PortfolioProjectsProps } from '@/types/types';
 import Link from 'next/link';
+import { motion } from "motion/react";
+import { animate, delay } from 'motion';
+import { portfolioCardVariant } from '@/constants/animationsVariants';
 
 interface CardProps {
     Card: PortfolioProjectsProps
@@ -9,7 +13,9 @@ interface CardProps {
 
 const ProjectCard = ({Card} : CardProps) => {
     return (
-        <div className='border-solid border-black border-4 rounded-2xl p-7 max-w-lg max-h-96 shadow-xl'>
+        <div
+            className='border-solid border-black border-4 rounded-2xl p-7 max-w-lg max-h-96 shadow-xl'
+        >
                 <h4 className='text-black-1 font-extrabold text-3xl mb-2'>{Card.title}</h4>
                 <h2 className='text-grey-1 text-xl font-semibold mb-2'>{Card.description}</h2>
                 <div className='flex flex-wrap mb-2'>
