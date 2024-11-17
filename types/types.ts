@@ -28,5 +28,6 @@ export interface AnimatedComponentProps {
         whileInView?: {};
         transition?: {};
         viewport?: {};
+        once?: boolean;
     };
 }

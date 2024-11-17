@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import { ReactNode } from 'react';
 import { AnimatedComponentProps } from '@/types/types';
 
 const AnimatedComponent = ({ 
