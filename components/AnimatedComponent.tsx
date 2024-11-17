@@ -18,6 +18,7 @@ const AnimatedComponent = ({
 
     return (
         <motion.div
+            className='block'
             initial={animation.initial}
             whileInView={animation.whileInView}
             transition={animation.transition}

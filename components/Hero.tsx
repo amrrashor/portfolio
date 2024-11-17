@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <section className='md:max-w-[1280px] mx-[10px] md:mx-auto flex flex-col md:flex-row md:justify-between justify-center items-center md:items-start'>
             {/* Left side */}
-            <AnimatedComponent>
+            <AnimatedComponent delay={0.2}>
                 <div className='px-[15px] mx:px-[0px] md:mr-[20px]'>
                     <h1 className='text-center md:text-left text-primary-1 text-[32px] leading-[40px] md:text-[72px] font-bold md:leading-[100px]'>I'm <span className='primary-4 text-white px-[4px]'>Amr Ashour</span>, <br /> a Software Developer <br /> from <span className='primary-3 text-white px-[4px] py-[2px]'>Egypt</span></h1>
                     <div className='flex flex-col md:flex-row mt-[50px] w-full'>

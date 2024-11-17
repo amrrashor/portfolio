@@ -12,9 +12,8 @@ const Experience = () => {
             <div className='relative overflow-visible min-h-[400px] max-w-[1300px] mx-auto px-[50px] flex justify-between md:flex-row flex-col'>
                 {/* ===left part=== */}
                 <AnimatedComponent>
-                    <div className=' block'>
-                        <div className='text-center md:text-left mb-[25px] md:mb-0 w-full md:sticky top-0 text-white md:text-[52px] text-[30px] font-bold md:leading-[1.15em]'>
-                            <div className='w-full'>Take a look at my<br /><span className='gradient-1 px-[4px]'>past experience</span></div>
+                    <div className='text-center md:text-left mb-[25px] md:mb-0 w-full md:sticky top-0 text-white md:text-[52px] text-[30px] font-bold md:leading-[1.15em]'>
+                        <div className='w-full'>Take a look at my<br /><span className='gradient-1 px-[4px]'>past experience</span></div>
                             <a  
                                 href='/AmrAshourResume.docx.pdf'
                                 download='AmrAshourResume.docx.pdf'
@@ -24,7 +23,6 @@ const Experience = () => {
                                 See full resume
                             </a>
                         </div>
-                    </div>
                 </AnimatedComponent>
 
                 {/* ===right part=== */}

@@ -4,12 +4,12 @@ import Link from 'next/link';
 import { FaRegEnvelope, FaLaptopCode } from "react-icons/fa";
 import { BiMenuAltRight, BiMenu } from "react-icons/bi";
 import AnimatedComponent from './AnimatedComponent';
-
+import { navbarAnimationVariant } from '@/constants/animationsVariants';
 const Navbar = () => {
     const [menu, showMenu] = useState(false)
     return (
         <nav className='relative z-30 w-full pt-[34px] pb-[34px] pl-[15px] pr-[15px]'>
-            <AnimatedComponent>
+            <AnimatedComponent customAnimation={navbarAnimationVariant}>
                 <div className='relative z-20 flex justify-between items-center h-[78px] max-w-[730px] bg-white mx-auto shadow-1 border-1 px-[8px] md:px-[24px] py-[14px] rounded-[18px]'>
                     <div className='w-[42px] h-[42px]'>
                         <FaLaptopCode className='w-[42px] h-[42px]' />

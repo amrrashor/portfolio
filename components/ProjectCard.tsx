@@ -5,7 +5,6 @@ import { PortfolioProjectsProps } from '@/types/types';
 import Link from 'next/link';
 import { motion } from "motion/react";
 import { animate, delay } from 'motion';
-import { portfolioCardVariant } from '@/constants/animationsVariants';
 
 interface CardProps {
     Card: PortfolioProjectsProps
