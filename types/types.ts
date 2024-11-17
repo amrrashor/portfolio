@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type experienceDataProps = {
     id:number,
     date:string,
@@ -16,4 +18,15 @@ export type PortfolioProjectsProps = {
         id:number,
         label:string
     }[]
+}
+
+export interface AnimatedComponentProps {
+    children: ReactNode;
+    delay?: number;
+    customAnimation?: {
+        initial?: {};
+        whileInView?: {};
+        transition?: {};
+        viewport?: {};
+    };
 }
