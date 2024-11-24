@@ -48,10 +48,6 @@ export let Skills = [
         icon:<SiReactquery />
     },
     {
-        title: 'Express',
-        icon:<SiExpress />
-    }, 
-    {
         title: 'Jest',
         icon:<SiJest />
     },
