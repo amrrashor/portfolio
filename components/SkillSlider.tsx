@@ -1,8 +1,6 @@
 import React from 'react'
 import { Skills } from '@/constants/constants';
     
-
-
 const SkillSlider = () => {
     return (
         <section className='w-full overflow-hidden pt-[20%] pb-[5%] mb-[100px]'>
