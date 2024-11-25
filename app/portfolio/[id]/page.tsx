@@ -19,14 +19,14 @@ const ProjectPage = ({params} : {params: {id: string}}) => {
     return (
         <div className='flex flex-col md:flex-row w-3/4 mx-auto mt-10'> 
             {/* left part */}       
-            <AnimatedComponent className='w-full h-full mr-10'>
+            <AnimatedComponent className='w-full h-full md:mr-10 mb-10 md:mb-0 text-center'>
                 <h1 className='text-4xl font-bold'>{project.title}</h1>
                 <p className='text-lg mt-5'>{project.description}</p>
                 <div className='mt-8'>
                     <h4 className='text-2xl font-bold'>Technologies i used in this project <FaTools className='ml-2 inline'/></h4>
                     <div className='flex flex-wrap mt-5'>
                         {project?.tags?.map((t) => (
-                            <span key={t.id} className={`text-sm font-medium p-2 rounded-xl mr-2 text-white ${t.id % 2 === 0 ? 'bg-cyan-1' : 'bg-tomato-1'}`}>{t.label}</span>
+                            <span key={t.id} className={`text-sm font-medium p-2 rounded-xl mr-2 mb-2 text-white ${t.id % 2 === 0 ? 'bg-cyan-1' : 'bg-tomato-1'}`}>{t.label}</span>
                         ))}
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const ProjectPage = ({params} : {params: {id: string}}) => {
             </AnimatedComponent>
 
             {/* right part */}
-            <AnimatedComponent className='min-w-[500px] min-h-[200px] rounded-xl shadow-xl' delay={0.5}>
+            <AnimatedComponent className='w-full h-full rounded-xl shadow-xl' delay={0.5}>
                 <img
                     className='w-full h-full object-cover rounded-xl'
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr5-FOOK0IFKFlS6N7CgdHSGvmLlnDJ9g1Cw&s" 
