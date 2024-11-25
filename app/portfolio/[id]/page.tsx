@@ -19,7 +19,7 @@ const ProjectPage = ({params} : {params: {id: string}}) => {
     return (
         <div className='flex flex-col md:flex-row w-3/4 mx-auto mt-10'> 
             {/* left part */}       
-            <AnimatedComponent className='w-full h-full md:mr-10 mb-10 md:mb-0 text-center'>
+            <AnimatedComponent className='w-full h-full md:mr-10 mb-10 md:mb-0 md:text-left text-center'>
                 <h1 className='text-4xl font-bold'>{project.title}</h1>
                 <p className='text-lg mt-5'>{project.description}</p>
                 <div className='mt-8'>
@@ -40,7 +40,7 @@ const ProjectPage = ({params} : {params: {id: string}}) => {
             </AnimatedComponent>
 
             {/* right part */}
-            <AnimatedComponent className='w-full h-full rounded-xl shadow-xl' delay={0.5}>
+            <AnimatedComponent className='w-full h-full rounded-xl shadow-2xl' delay={0.5}>
                 <img
                     className='w-full h-full object-cover rounded-xl'
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr5-FOOK0IFKFlS6N7CgdHSGvmLlnDJ9g1Cw&s" 
