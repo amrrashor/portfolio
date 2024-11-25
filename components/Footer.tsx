@@ -28,8 +28,8 @@ const Footer = () => {
                 <div className='flex flex-col mb-[30px] md:mb-[0px]'>
                     <h4 className='font-bold  text-[22px] md:text-[32px] mb-[15px]'>Pages</h4>
                     <Link href='/' className=' font-normal text-[18px] mb-[10px]'>Home</Link>
-                    <Link href='/about' className=' font-normal text-[18px] mb-[10px]'>About</Link>
-                    <Link href='/portfolio' className=' font-normal text-[18px] mb-[10px]'>Portfolio</Link>
+                    <Link href='/#about' className=' font-normal text-[18px] mb-[10px]'>About</Link>
+                    <Link href='/#portfolio' className=' font-normal text-[18px] mb-[10px]'>Portfolio</Link>
                 </div>
 
                 <div className=''>

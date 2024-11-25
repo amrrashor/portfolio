@@ -23,6 +23,7 @@ export type PortfolioProjectsProps = {
 export interface AnimatedComponentProps {
     children: ReactNode;
     delay?: number;
+    className?: string;
     customAnimation?: {
         initial?: {};
         whileInView?: {};

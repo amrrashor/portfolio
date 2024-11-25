@@ -17,8 +17,8 @@ const Navbar = () => {
 
                     <div className='hidden md:flex justify-evenly w-full'>
                         <Link href={'/'} className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[18px] leading-[24px]'>Home</Link>
-                        <Link href='#about' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[18px] leading-[24px]'>About</Link>
-                        <Link href='#portfolio' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[18px] leading-[24px]'>Portfolio</Link>
+                        <Link href='/#about' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[18px] leading-[24px]'>About</Link>
+                        <Link href='/#portfolio' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[18px] leading-[24px]'>Portfolio</Link>
                     </div>
                     
                     <Link href='/contact' className='hidden md:block hover:bg-[#1c92ff] hover:border-[#1c92ff] duration-200 primary-2 border-1 p-[13px] text-center rounded-[12px]'>

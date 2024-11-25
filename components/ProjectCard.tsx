@@ -36,7 +36,7 @@ const ProjectCard = ({Card, isMobile, setShowCard, setSelectedProject} : CardPro
                 className='border-solid border-black border-4 rounded-2xl p-7 max-w-lg max-h-96 shadow-xl cursor-pointer hover:shadow-2xl hover:scale-105 duration-200 block'
             >
                 <h4 className='text-black-1 font-extrabold text-3xl mb-2'>{Card.title}</h4>
-                <h2 className='text-grey-1 text-xl font-semibold mb-2'>{Card.description}</h2>
+                <h2 className='text-grey-1 text-xl font-medium mb-2'>{Card.description?.length > 100 ? `${Card?.description?.substring(0, 100)}...` : Card?.description}</h2>
                 <div className='flex flex-wrap mb-2'>
                     {Card?.tags?.map((tag) => (
                         <span key={tag.id} className={`${tag.id % 2 === 0 ? "bg-cyan-1" : "bg-tomato-1"} font-bold px-2 py-1 rounded-lg mr-2 text-white mb-2`}>{tag.label}</span>

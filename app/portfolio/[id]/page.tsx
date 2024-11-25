@@ -2,6 +2,8 @@
 import React, {useEffect} from 'react'
 import { PortfolioProjectsData } from '@/constants/constants'
 import { notFound } from 'next/navigation'
+import { FaTools } from "react-icons/fa";
+import AnimatedComponent from '@/components/AnimatedComponent';
 
 const ProjectPage = ({params} : {params: {id: string}}) => {
     const project = PortfolioProjectsData.find(p => p.id.toString() === params.id);
@@ -15,21 +17,36 @@ const ProjectPage = ({params} : {params: {id: string}}) => {
     }, []);
 
     return (
-        <div className='flex flex-col md:flex-row w-3/4 mx-auto'> 
+        <div className='flex flex-col md:flex-row w-3/4 mx-auto mt-10'> 
             {/* left part */}       
-            <div className='w-full h-full mr-10'>
-                <h1>{project.title}</h1>
-                <p>{project.description}</p>
-            </div>
+            <AnimatedComponent className='w-full h-full mr-10'>
+                <h1 className='text-4xl font-bold'>{project.title}</h1>
+                <p className='text-lg mt-5'>{project.description}</p>
+                <div className='mt-8'>
+                    <h4 className='text-2xl font-bold'>Technologies i used in this project <FaTools className='ml-2 inline'/></h4>
+                    <div className='flex flex-wrap mt-5'>
+                        {project?.tags?.map((t) => (
+                            <span key={t.id} className={`text-sm font-medium p-2 rounded-xl mr-2 text-white ${t.id % 2 === 0 ? 'bg-cyan-1' : 'bg-tomato-1'}`}>{t.label}</span>
+                        ))}
+                    </div>
+                </div>
+                <a 
+                    className='inline-block hover:bg-tomato-1 hover:text-white duration-300 mt-7 border border-solid border-black hover:border-tomato-1 rounded-xl px-3 py-2 text-center hover:scale-[0.998]' 
+                    href={project?.link} 
+                    target='blank'
+                >
+                    Visit Website
+                </a>
+            </AnimatedComponent>
 
             {/* right part */}
-            <div className='w-[700px] h-[400px] rounded-xl shadow-xl'>
+            <AnimatedComponent className='min-w-[500px] min-h-[200px] rounded-xl shadow-xl' delay={0.5}>
                 <img
-                    className='w-full h-full object-contain rounded-xl'
+                    className='w-full h-full object-cover rounded-xl'
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr5-FOOK0IFKFlS6N7CgdHSGvmLlnDJ9g1Cw&s" 
                     alt={project.title} 
                 />
-            </div>
+            </AnimatedComponent>
         </div>
     )
 }

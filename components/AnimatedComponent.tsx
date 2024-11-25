@@ -4,7 +4,8 @@ import { defaultAnimationVariant } from '@/constants/animationsVariants';
 const AnimatedComponent = ({ 
     children, 
     delay = 0,
-    customAnimation
+    customAnimation,
+    className
 }: AnimatedComponentProps) => {
     
 
@@ -18,7 +19,7 @@ const AnimatedComponent = ({
 
     return (
         <motion.div
-            className='block'
+            className={`${className} block`}
             initial={animation.initial}
             whileInView={animation.whileInView}
             transition={animation.transition}
