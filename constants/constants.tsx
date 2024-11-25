@@ -116,7 +116,7 @@ export const PortfolioProjectsData = [
     {
         id:1,
         title:'PROJECT 1',
-        description:'lorem ipsum',
+        description:'lorem ipsum  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem aliquid delectus magni saepe recusandae iste nihil voluptates ab placeat sit dolore nostrum iure quis, repudiandae, quo necessitatibus, natus voluptatibus commodi.',
         link:'',
         tags: [
             {
@@ -136,7 +136,7 @@ export const PortfolioProjectsData = [
     {
         id:2,
         title:'PROJECT 2',
-        description:'LOREM IPSUM',
+        description:'lorem ipsum  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem aliquid delectus magni saepe recusandae iste nihil voluptates ab placeat sit dolore nostrum iure quis, repudiandae, quo necessitatibus, natus voluptatibus commodi.',
         link:'',
         tags: [
             {
@@ -156,7 +156,7 @@ export const PortfolioProjectsData = [
     {
         id:3,
         title:'PROJECT 3',
-        description:'LOREM IPSUM',
+        description:'lorem ipsum  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem aliquid delectus magni saepe recusandae iste nihil voluptates ab placeat sit dolore nostrum iure quis, repudiandae, quo necessitatibus, natus voluptatibus commodi.',
         link:'',
         tags: [
             {
