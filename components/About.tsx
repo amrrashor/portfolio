@@ -4,7 +4,7 @@ import AnimatedComponent from './AnimatedComponent';
 
 const About = () => {
     return (
-        <div className='flex justify-evenly md:flex-row flex-col items-center my-28 md:my-[240px] max-w-[1300px] mx-auto'>
+        <div className='flex justify-evenly md:flex-row flex-col items-center my-28 md:my-[240px] max-w-[1300px] mx-auto' id='about'>
             {/* Left side */}
             <AnimatedComponent>
                 <div className='bg-tomato-1 max-w-[500px] max-h-[500px] rounded-full relative border border-solid border-black'>
