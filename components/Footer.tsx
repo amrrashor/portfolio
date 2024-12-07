@@ -5,7 +5,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <section className='w-full primary-2 p-[25px] md:p-[50px] mt-[150px] text-primary-4'>
+        <section className='w-full primary-2 p-[25px] md:p-[50px] mt-[150px] text-primary-4' id='footer'>
             <div className='  w-full flex justify-between md:flex-row flex-col'>
                 <div className='mb-[30px] md:mb-[0px]'>
                     <h4 className='font-bold text-[22px] md:text-[32px] mb-[15px]'>Amr Ashour | Portfolio</h4>

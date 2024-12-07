@@ -18,7 +18,7 @@ export const Instagram = () => {
             <path d="M17.5 7.94043C18.2594 7.94043 18.875 7.32482 18.875 6.56543C18.875 5.80604 18.2594 5.19043 17.5 5.19043C16.7406 5.19043 16.125 5.80604 16.125 6.56543C16.125 7.32482 16.7406 7.94043 17.5 7.94043Z" fill="#0B0B0B"/>
             <defs>
                 <linearGradient id="paint0_linear_2639_54108" x1="8.67421" y1="2.76671" x2="12.4582" y2="24.8988" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#5C42FB"/>
+                    <stop stopColor="#5C42FB"/>
                     <stop offset="0.487216" stopColor="#FD2E47"/>
                     <stop offset="1" stopColor="#FFCC19"/>
                 </linearGradient>

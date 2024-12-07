@@ -29,15 +29,15 @@ const Navbar = () => {
                     <div onClick={() => showMenu(!menu)} className='block md:hidden'>
                         {menu ? (
                             <BiMenuAltRight className='w-[40px] h-[40px] text-primary-2' />
-                        ): (
+                        ) : (
                             <BiMenu className='w-[40px] h-[40px] text-primary-2'/>
                         )}
                     </div>
 
                     <div className={`${menu ? "opacity-1 translate-y-[150px]" : "opacity-0 translate-y-[-150px]"} z-10 rounded-[24px] px-[24px] py-[32px] justify-between flex flex-col w-full ml-[-8px] border-1 bg-white absolute duration-200`}>
                         <Link onClick={() => showMenu(!menu)} href={'/'} className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[15px] leading-[20px] mb-[20px]'>Home</Link>
-                        <Link onClick={() => showMenu(!menu)} href='/about' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[15px] leading-[20px] mb-[20px]'>About</Link>
-                        <Link onClick={() => showMenu(!menu)} href='/portfolio' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[15px] leading-[20px] '>Portfolio</Link>
+                        <Link onClick={() => showMenu(!menu)} href='/#about' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[15px] leading-[20px] mb-[20px]'>About</Link>
+                        <Link onClick={() => showMenu(!menu)} href='/#portfolio' className='hover:text-[#1c92ff] duration-200 font-bold text-primary-1 text-[15px] leading-[20px] '>Portfolio</Link>
                     </div>
                 </div>
             </AnimatedComponent>
